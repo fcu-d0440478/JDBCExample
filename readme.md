@@ -39,6 +39,20 @@ String connectionUrl = "jdbc:sqlserver://localhost:1433;databaseName=TestDB;user
 
 在 Java 中，try() 語句中的括號被稱為資源宣告區域，用於宣告需要自動關閉的資源。在 try() 語句結束時，這些資源會被自動關閉，這是 Java 7 引入的 try-with-resources 語法。使用 try-with-resources 語法可以讓你的程式碼更簡潔，並且可以確保資源在不再需要時被正確地關閉。
 
+# JDBCExample2
+
+這個 Java 程式碼示範了如何使用 Java 的 JDBC（Java Database Connectivity）API 來與 SQL Server 資料庫進行互動。以下是這段程式碼的主要功能：
+
+1. **建立資料庫連接**：程式碼首先建立一個到 SQL Server 資料庫的連接。連接的 URL、使用者名稱和密碼都在程式碼中指定。
+
+2. **創建資料庫**：如果指定的資料庫不存在，程式碼會創建一個新的資料庫。
+
+3. **創建表格並插入資料**：程式碼會創建四個表格（Student, Course, Teacher, Score），並插入一些範例資料。
+
+4. **執行 SQL 查詢**：程式碼會執行幾個 SQL 查詢，包括查詢各科成績前三名的記錄、不分科別由高到低依成績排序的前五名學生，以及計算出 Teacher 表中老師名字的相異計數。
+
+這個程式碼是一個很好的範例，展示了如何使用 Java 的 JDBC API 來與資料庫進行互動，包括創建資料庫、創建表格、插入資料，以及執行 SQL 查詢。
+
 # 資料庫環境建置
 
 1.先去下載 MSSQL Express 2022 版本
