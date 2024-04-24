@@ -27,6 +27,7 @@ https://learn.microsoft.com/zh-tw/sql/ssms/download-sql-server-management-studio
 ![image](https://github.com/fcu-d0440478/JDBCExample/blob/master/picture_file/%E5%9C%967.png)
 
 將 IP/ALL 的頁籤下 TCP 通訊埠設定為 1433
+
 ![image](https://github.com/fcu-d0440478/JDBCExample/blob/master/picture_file/%E5%9C%968.png)
 
 最後到 SQL Server 服務將 SQL Server 右鍵重新啟動就完成資料庫的設定了
