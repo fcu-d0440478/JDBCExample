@@ -59,7 +59,7 @@ https://www.microsoft.com/zh-tw/sql-server/sql-server-downloads
 2.再來下載 SQL Server Management Studio (SSMS)
 https://learn.microsoft.com/zh-tw/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
 
-3.挑整設定，開啟 SSMS(SQL Server Management Studio)。用 windows 登入後右鍵資料庫的登入項，然後新增登入(新增使用者)
+3.條整設定，開啟 SSMS(SQL Server Management Studio)。用 windows 登入後右鍵資料庫的登入項，然後新增登入(新增使用者)
 
 ![image](https://github.com/fcu-d0440478/JDBCExample/blob/master/picture_file/%E5%9C%961.png)
 
