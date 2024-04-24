@@ -4,9 +4,7 @@
 
 ## 程式碼解釋
 
-```Java
-String connectionUrl = "jdbc:sqlserver://localhost:1433;databaseName=TestDB;user=Eric;password=password;TrustServerCertificate=true";
-```
+`String connectionUrl = "jdbc:sqlserver://localhost:1433;databaseName=TestDB;user=Eric;password=password;TrustServerCertificate=true";`
 
 首先，程式碼定義了一個連接字串 `connectionUrl`，用於指定資料庫伺服器的位置、資料庫名稱、使用者名稱、密碼，以及是否信任伺服器的 SSL 憑證。這段字串是一個用於連接 SQL Server 資料庫的 JDBC 連接字串。以下是各部分的解釋：
 
@@ -35,7 +33,7 @@ String connectionUrl = "jdbc:sqlserver://localhost:1433;databaseName=TestDB;user
 
 如果在執行過程中發生任何錯誤，程式碼會捕獲 `SQLException` 異常，並將異常的堆疊蹤跡輸出到控制台。
 
-## 其中，Try 的部分補充如下
+### 其中，Try 的部分補充如下
 
 在 Java 中，try() 語句中的括號被稱為資源宣告區域，用於宣告需要自動關閉的資源。在 try() 語句結束時，這些資源會被自動關閉，這是 Java 7 引入的 try-with-resources 語法。使用 try-with-resources 語法可以讓你的程式碼更簡潔，並且可以確保資源在不再需要時被正確地關閉。
 
